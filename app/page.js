@@ -43,8 +43,8 @@ export default function Home() {
                 src={hotel.image}
                 alt={hotel.name}
                 fill
-                className="object-contain rounded-md bg-gray-100"
-                sizes="(max-width: 768px) 100vw, 33vw"
+                className="object-cover  rounded-md bg-gray-100"
+                // sizes="(max-width: 768px) 100vw, 33vw"
               />
             </div>
             <h2 className="text-xl font-semibold mb-1">{hotel.name}</h2>

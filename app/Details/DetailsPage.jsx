@@ -42,13 +42,19 @@ export default function DetailsPage() {
   return (
     <main className="w-full mx-auto py-10 px-4">
       <div className="flex flex-col items-center mb-6">
-        <div className="w-[90%] md:w-[80%] h-60 relative mb-2">
-          <Image
-            src={hotel.image}
-            alt={hotel.name}
-            fill
-            className="object-contain rounded bg-gray-100"
-          />
+        <div className="w-[90%]  md:h-[450px] relative mb-2">
+          {hotel.image ? (
+  <Image
+    src={hotel.image}
+    alt={hotel.name}
+    fill
+    className="object-cover rounded bg-gray-100 "
+  />
+) : (
+  <div className="w-full h-full flex items-center justify-center bg-gray-100 text-gray-400">
+    No Image Available
+  </div>
+)}
         </div>
         <h1 className="text-3xl font-bold mb-1 text-orange-600">{hotel.name}</h1>
         <p className="text-gray-500 mb-1">{hotel.city}</p>

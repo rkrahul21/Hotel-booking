@@ -64,7 +64,7 @@ export default function BookingForm({ hotelName = "", roomName = "" }) {
   };
 
   return (
-  <form onSubmit={handleSubmit} className="space-y-4 p-4 bg-white rounded shadow max-w-md mx-auto">
+  <form onSubmit={handleSubmit} className="w-full space-y-4 p-4 bg-white rounded shadow max-w-md mx-auto">
       <div>
         <label className="block font-medium mb-1">Your Name</label>
         <input
