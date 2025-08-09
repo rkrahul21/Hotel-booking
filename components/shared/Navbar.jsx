@@ -10,11 +10,11 @@ function Navbar() {
 
         <div className='w-[20%] '>Hotel.com</div>
         <div className='w-[40%]  gap-6 flex items-center justify-between p-2'>
-            <Link href="http://localhost:3000/">Rooms</Link>
+            <Link href="https://hotel-booking-six-psi.vercel.app/">Rooms</Link>
 
-            <Link href="http://localhost:3000/">Sevices</Link>
+            <Link href="https://hotel-booking-six-psi.vercel.app/">Sevices</Link>
             
-            <Link href="http://localhost:3000/">Feedback</Link>
+            <Link href="https://hotel-booking-six-psi.vercel.app/">Feedback</Link>
         </div>
         </div>
     </div>
