@@ -8,13 +8,14 @@ function Navbar() {
     <div className='w-full hidden md:block '>
         <div className=' flex items-center justify-between p-2'>
 
-        <div className='w-[20%] '>Hotel.com</div>
+        <div className='w-[20%] '>
+          <Link href="/"> Hotel.com</Link></div>
         <div className='w-[40%]  gap-6 flex items-center justify-between p-2'>
-            <Link href="https://hotel-booking-six-psi.vercel.app/">Rooms</Link>
+            <Link href="/">Rooms</Link>
 
-            <Link href="https://hotel-booking-six-psi.vercel.app/">Sevices</Link>
+            <Link href="/">Sevices</Link>
             
-            <Link href="https://hotel-booking-six-psi.vercel.app/">Feedback</Link>
+            <Link href="/">Feedback</Link>
         </div>
         </div>
     </div>
